@@ -1,0 +1,10 @@
+1- change the path of the rulebook and run makecorpus.py
+update the paths to the output files in the codes AdaptativePre-Trainingv2.py and finetuningMNRloss.py
+
+2- run AdaptativePre-Trainingv2.py
+(on supercomputer do qsub DA.qsub)
+
+3-run finetuningMNRloss.py
+>qsub FT.qsub
+
+
